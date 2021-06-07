@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript3-1</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1>ToDoリスト</h1>
+  </header>
+  <p>
+    <label><input type="radio" name="item" value="all">すべて </label>
+    <label><input type="radio" name="item" value="now"> 作業中</label>
+    <label><input type="radio" name="item" value="con"> 完了</label>
+  </p> 
+  <table>
+    <thead>
+        <th>ID</th>
+        <th>コメント</th>
+        <th>状態</th>
+    </thead>
+    <tbody id="addTask-target"></tbody>
+  </table>
+  
+  <h2>新規タスクの追加</h2>
+
+  <input id="input-todo" type="text">
+  <button id="add-button">追加</button>
+  <script src="mian.js"></script>
+</body>
+
+</html>
